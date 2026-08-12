@@ -1,0 +1,12 @@
+Start
+Declare variables: current (double), safeCount (int) = 0, unsafeCount (int) = 0
+Use a for loop that runs 8 times (i = 1 to 8):
+
+Prompt user to enter current reading
+Read current
+If current <= 10 → increment safeCount
+Else → increment unsafeCount
+
+
+After loop ends, display safeCount and unsafeCount
+Stop

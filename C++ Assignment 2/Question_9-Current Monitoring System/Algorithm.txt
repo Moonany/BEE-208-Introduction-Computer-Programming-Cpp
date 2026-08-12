@@ -1,0 +1,15 @@
+Start
+
+Declare variable current of type double
+Prompt user to enter first current reading
+Read current
+While current <= 10:
+
+Display "Safe reading: [current] A"
+Prompt user to enter next current reading
+Read current
+
+
+End While
+Display "Overcurrent detected. Monitoring stopped."
+Stop
