@@ -1,0 +1,46 @@
+START
+
+DECLARE choice AS integer
+DECLARE voltage, current, power, time, resistance, energy AS double
+
+DISPLAY "Power Rating Menu"
+DISPLAY "1. Calculate DC Power"
+DISPLAY "2. Calculate Resistance using Ohm's Law"
+DISPLAY "3. Calculate Energy Consumption"
+
+DISPLAY "Enter your choice: "
+INPUT choice
+
+SWITCH choice
+    CASE 1:
+        DISPLAY "Enter voltage in volts: "
+        INPUT voltage
+        DISPLAY "Enter current in amperes: "
+        INPUT current
+        power = voltage * current
+        DISPLAY "DC Power = ", power, " W"
+        BREAK
+
+    CASE 2:
+        DISPLAY "Enter voltage in volts: "
+        INPUT voltage
+        DISPLAY "Enter current in amperes: "
+        INPUT current
+        resistance = voltage / current
+        DISPLAY "Resistance = ", resistance, " ohms"
+        BREAK
+
+    CASE 3:
+        DISPLAY "Enter power in watts: "
+        INPUT power
+        DISPLAY "Enter time in hours: "
+        INPUT time
+        energy = power * time
+        DISPLAY "Energy Consumption = ", energy, " Wh"
+        BREAK
+
+    DEFAULT:
+        DISPLAY "Invalid selection"
+END SWITCH
+
+STOP

@@ -1,0 +1,7 @@
+Start
+Declare variable gpa of type double
+Prompt user to enter their GPA
+Read gpa
+If gpa >= 3.5 → print "Eligible for engineering scholarship."
+Else → print "Not eligible for engineering scholarship."
+Stop

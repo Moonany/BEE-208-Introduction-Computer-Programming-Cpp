@@ -1,0 +1,13 @@
+Start the program.
+
+Initialize totalVoltage to 0.
+
+Use a for loop to accept 10 voltage readings.
+
+Add each reading to totalVoltage.
+
+Calculate averageVoltage = totalVoltage / 10.
+
+Display the average voltage with the unit “V”.
+
+End the program.

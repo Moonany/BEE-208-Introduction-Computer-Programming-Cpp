@@ -1,0 +1,11 @@
+Start the program.
+
+Initialize a variable totalResistance to 0.
+
+Use a for loop to accept five resistor values.
+
+Add each resistor value to totalResistance.
+
+After the loop, display the total resistance in ohms.
+
+End the program.
